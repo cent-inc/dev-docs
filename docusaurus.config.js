@@ -9,6 +9,7 @@ const projectName = "dev-docs";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  noIndex: true, // no SEO
   title: "Cent Developer documentation",
   tagline: "",
   url: `https://${organizationName}.github.io`,
